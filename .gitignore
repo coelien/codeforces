@@ -1,4 +1,10 @@
 .idea/
 .vscode/
-build/
+.cache/
 cmake-build-debug/
+tag
+*
+!/**/
+build/
+!*.c
+!*.cpp
