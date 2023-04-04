@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.21)
+project(codeforces)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(codeforces824 824.cpp)
+add_executable(atcoder atcoder.cpp)
+add_executable(lanqiao_rec lanqiao/recur.cpp)
+add_executable(lanqiao_bin lanqiao/binary.cpp)
+add_executable(lanqiao_math lanqiao/math.cpp)
+add_executable(lanqiao_dp lanqiao/dp.cpp)
+add_executable(lanqiao_sim lanqiao/sim.cpp)
+add_executable(lanqiao_tree_array lanqiao/tree_array.cpp)
+add_executable(lanqiao_chapt6 lanqiao/chapt6.cpp)
+add_executable(lanqiao_chapt7 lanqiao/chapt7.cpp)
+add_executable(lanqiao_chapt8 lanqiao/chapt8.cpp)
